@@ -1,0 +1,6 @@
+# Datasets generados por main.py (directorio de salida por defecto, -o)
+datasets/
+
+# Python
+__pycache__/
+*.pyc
