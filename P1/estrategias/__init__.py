@@ -12,8 +12,7 @@ from importlib import import_module
 
 from .base import Estrategia
 
-# Registro formato -> (módulo, clase). Los módulos se importan solo al pedirlos, así que
-# la falta de un driver (p. ej. psycopg2) no impide usar el resto de formatos.
+# Registro formato -> (módulo, clase). 
 ESTRATEGIAS = {
     'csv': ('estrategia_csv', 'EstrategiaCSV'),
     'parquet': ('estrategia_parquet', 'EstrategiaParquet'),
